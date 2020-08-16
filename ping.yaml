@@ -1,0 +1,6 @@
+-
+  name: ping the host
+  hosts: linux
+  tasks:
+    - name: Ping the host
+      ping:

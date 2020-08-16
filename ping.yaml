@@ -1,6 +1,6 @@
 -
-  name: ping the host
-  hosts: linux
+  name: Ping Test
+  hosts: app-server
   tasks:
-    - name: Ping the host
+    - name: Ping Test
       ping:
